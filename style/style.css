@@ -12,16 +12,27 @@ html
 
 body
 {
-  font: normal .80em 'trebuchet ms', open-sans, sans-serif;
-  background-color: #cfcfcf;
+  font-family: 'Open Sans', sans-serif;  background-color: #cfcfcf;
   margin: auto;
 }
 
 p
 {
+  font-family: 'Open Sans', sans-serif;
   padding: 0 0 20px 0;
   line-height: 1.7em;
   text-align: left;
+}
+
+h1
+{
+    font-family: 'Open Sans', sans-serif;
+  	font-size: 20px;
+  	font-style: normal;
+  	font-variant: normal;
+  	font-weight: 400;
+    line-height: 20px
+
 }
 
 header
@@ -32,19 +43,67 @@ header
   background-position: right;
   background-repeat: no-repeat;
   background-color: #202020;
+  float: left;
+
+}
+
+#header_logo
+{
+  width: 409px;
+  height: 131px;
+  margin: auto;
+  margin-top: 110px;
+  background-image: url("header/logo_header.png");
+
 }
 
 #c1
 {
   height: 353px;
   width: 100%;
+  float: left;
 }
+
+#label_c1
+{
+  width: 369px;
+  height: 67px;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  border-color: #df2121;
+  border-style: solid;
+}
+
+#label_c1 h1
+{
+   margin-top: 23px;
+}
+
+#text_c1
+{
+  width: 369px;
+  height: auto;
+  margin: auto;
+  margin-top: 50px;
+
+}
+
+#text_c1 p
+{
+  margin-left: 10px;
+  line-height: 130%;
+  text-align: center;
+}
+
 
 #c2
 {
   height: 820px;
   width: 100%;
   background-color: #d8d8d8;
+  float: left;
+
 }
 
 #c3
@@ -56,12 +115,16 @@ header
   background-repeat: no-repeat;
   background-color: #2a2a2a;
   background-size: contain;
+  float: left;
+
 }
 
 #c4
 {
   height: 344px;
   width: 100%;
+  float: left;
+
 }
 
 footer
@@ -69,4 +132,6 @@ footer
   height: 249px;
   width: 100%;
   background-color: #202020;
+  float: left;
+
 }
