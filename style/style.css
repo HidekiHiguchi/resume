@@ -81,6 +81,8 @@ header
   margin-top: 50px;
   border-color: #df2121;
   border-style: solid;
+  border-width: 1px;
+
 }
 
 #label_c1 h1
@@ -113,6 +115,60 @@ header
   float: left;
 
 }
+/*
+----------------- C2 zone ----------------
+*/
+
+#label_c2
+{
+  width: 229;
+  height: 67px;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  border-color: #df2121;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#label_c2 h1
+{
+   margin-top: 27px;
+}
+
+#skills
+{
+  margin: auto;
+  margin-top: 50px;
+  /*border-color: red;
+  border-style: solid;*/
+  line-height: 116px;
+  width: 570px;
+  height: 557px;
+
+}
+
+#skill_1
+{
+  /*border-style: solid;
+  border-color: black;*/
+  width: 184px;
+  height: 180px;
+  float: left;
+}
+
+#skill_1 img
+{
+  margin-top: 0px;
+  margin-left: 38px;
+}
+
+#skill_1 p
+{
+  margin-left: 82px;
+  margin-top: -40px;
+}
+
 
 #c3
 {
