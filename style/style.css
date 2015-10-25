@@ -109,7 +109,7 @@ header
 
 #c2
 {
-  height: 820px;
+  height: 732px;
   width: 100%;
   background-color: #d8d8d8;
   float: left;
@@ -145,7 +145,25 @@ header
   line-height: 116px;
   width: 570px;
   height: 557px;
+  color: #df2121;
 
+}
+
+#circlebox
+{
+  margin-left: -1px;
+  height: auto;
+  width: 110px;
+  /*border-style: solid;
+  border-color: red;*/
+}
+#circlebox_right
+{
+  height: auto;
+  width: 110px;
+  /*border-style: solid;
+  border-color: red;*/
+  margin-left: 89px;
 }
 
 #skill_1
@@ -165,9 +183,52 @@ header
 
 #skill_1 p
 {
-  margin-left: 82px;
+  text-align: center;
   margin-top: -40px;
 }
+
+#skill_1_left
+{
+  /*border-style: solid;
+  border-color: black;*/
+  width: 184px;
+  height: 180px;
+  float: left;
+}
+
+#skill_1_left img
+{
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+#skill_1_left p
+{
+    text-align: center;
+    margin-top: -40px;
+}
+
+
+#skill_1_right
+{
+  /*border-style: solid;
+  border-color: black;*/
+  width: 184px;
+  height: 180px;
+  float: left;
+}
+
+#skill_1_right img
+{
+  margin-top: 0px;
+}
+
+#skill_1_right p
+{
+  margin-top: -40px;
+  text-align: center;
+}
+
 
 
 #c3
@@ -178,10 +239,30 @@ header
   background-position: center;
   background-repeat: no-repeat;
   background-color: #2a2a2a;
-  background-size: contain;
+  background-size: auto;
   float: left;
 
 }
+
+
+#label_c3
+{
+  width: 185;
+  height: 67px;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  border-color: #df2121;
+  border-style: solid;
+  border-width: 1px;
+  color: #ffffff;
+}
+
+#label_c3 h1
+{
+   margin-top: 27px;
+}
+
 
 #c4
 {
